@@ -1,0 +1,155 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Online Bookstore</title>
+    <link rel="stylesheet" href="bookstore.css">
+    <style>
+        :is([id*='google_ads_iframe'], [id*='taboola-'], .taboolaHeight, .taboola-placeholder, #credential_picker_container, #credentials-picker-container, #credential_picker_iframe, [id*='google-one-tap-iframe'], #google-one-tap-popup-container, .google-one-tap-modal-div, #amp_floatingAdDiv, #ez-content-blocker-container) {
+            display: none!important;
+            min-height: 0!important;
+            height: 0!important;
+        }
+    </style>
+    <style type="text/css">
+        iframe#teal-job-tracker-iframe-stable {
+            min-width: 380px !important;
+            width: 380px !important;
+            min-height: 100vh !important;
+            height: 100vh !important;
+        }
+        
+        @media print {
+            #teal-job-tracker-root-stable,
+            #teal-job-tracker-companion-root-stable {
+                display: none !important;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>Botique Books</h1>
+    </header>
+
+    <section class="filter">
+        <h2>Filter by Genre</h2>
+        <select id="genreFilter" control-id="ControlID-1">
+        <option value="all">All Genres</option>
+        <option value="fiction">Fiction</option>
+        <option value="non-fiction">Non-Fiction</option>
+        <option value="mystery">Mystery</option>
+        <option value="fantasy">Fantasy</option>
+        <option value="self-help">Self-help</option>
+        <option value="Top-sellers">Top Sellers</option>
+        <option value="Romance">Romance</option>
+        <option value="Horror">Horror</option>
+        <option value="Adult">Adult</option>
+        <option value="computer">Computer &amp; Technology</option>
+      </select>
+    </section>
+
+    <section class="books">
+        <div class="book">
+            <div class="img-div">
+                <img src="https://m.media-amazon.com/images/I/81py-nCTfrL._SY466_.jpg" alt="Book 1">
+            </div>
+            <div class="info-div">
+                <h3>
+            Python Crash Course, 3rd Edition: A Hands-On, Project-Based
+            Introduction to Programming
+          </h3>
+                <p>Author: Eric Matthes</p>
+                <p>Genre: Computer &amp; Technology</p>
+                <p><mark><b>Price: $30.99</b></mark></p>
+            </div>
+            <button class="btn" control-id="ControlID-2">Add to Cart</button>
+        </div>
+
+        <div class="book">
+            <div class="img-div">
+                <img src="https://m.media-amazon.com/images/I/81Sdk02bg+L._SY466_.jpg" alt="Book 2">
+            </div>
+            <div class="info-div">
+                <h3>
+            Practical Statistics for Data Scientists: 50+ Essential Concepts
+            Using R and Python
+          </h3>
+                <p>Author: Peter Bruce, Andrew Bruce, Peter Gedeck</p>
+                <p>Genre: Computer &amp; Technology</p>
+                <p><mark><b>Price: $42.99</b></mark></p>
+            </div>
+            <button class="btn" control-id="ControlID-3">Add to Cart</button>
+        </div>
+
+        <div class="book">
+            <div class="img-div">
+                <img src="https://m.media-amazon.com/images/I/81ukjOIQyKL._AC._SR360,460.jpg" alt="Book 3">
+            </div>
+            <div class="info-div">
+                <h3>
+            The Coming Wave: Technology, Power, and the Twenty-first Century's
+            Greatest Dilemma
+          </h3>
+                <p>Author: Mustafa Suleyman (Author), Michael Bhaskar</p>
+                <p>Genre: Computer &amp; Technology</p>
+                <p><mark><b>Price: $21.99</b></mark></p>
+            </div>
+            <button class="btn" control-id="ControlID-4">Add to Cart</button>
+        </div>
+
+        <div class="book">
+            <div class="img-div">
+                <img src="https://m.media-amazon.com/images/I/61ZuZASPz2L._SY466_.jpg" alt="Book 4">
+            </div>
+            <div class="info-div">
+                <h3>
+            EXCEL 2023: From Beginner to Expert | The Illustrative Guide to
+            Master All The Essential Functions
+          </h3>
+                <p>Author: Richard Wilson</p>
+                <p>Genre: Computer &amp; Technology</p>
+                <p><mark><b>Price: $14.99</b></mark></p>
+            </div>
+            <button class="btn" control-id="ControlID-5">Add to Cart</button>
+        </div>
+
+        <div class="book">
+            <div class="img-div">
+                <img src="https://m.media-amazon.com/images/I/91QBEYSpnLL._SY466_.jpg" alt="Book 5">
+            </div>
+            <div class="info-div">
+                <h3>
+            Python for Data Analysis: Data Wrangling with pandas, NumPy, and
+            Jupyter
+          </h3>
+                <p>Author: Wes McKinney</p>
+                <p>Genre: Computer &amp; Technology</p>
+                <p><mark><b>Price: $33.99</b></mark></p>
+            </div>
+            <button class="btn" control-id="ControlID-6">Add to Cart</button>
+        </div>
+
+        <div class="book">
+            <div class="img-div">
+                <img src="https://m.media-amazon.com/images/I/616c+ys7RBL._SY466_.jpg" alt="Book 6">
+            </div>
+            <div class="info-div">
+                <h3>Introduction to Algorithms, fourth edition</h3>
+                <p>
+                    Author: Thomas H. Cormen, Charles E. Leiserson, Ronald L. Rivest, Clifford Stein
+                </p>
+                <p>Genre: Computer &amp; Technology</p>
+                <p><mark><b>Price: $112.99</b></mark></p>
+            </div>
+            <button class="btn" control-id="ControlID-7">Add to Cart</button>
+        </div>
+
+        <!-- More books can be added here -->
+    </section>
+
+    <footer>
+        <p>© 2023 Online Bookstore</p>
+    </footer>
